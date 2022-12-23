@@ -1,0 +1,793 @@
+#boat {
+    background-color: black;
+    width: 100%;
+    height: 6900px;
+}
+#go-top{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 2px white solid;
+    border-radius: 50%;
+    background-color: black;
+    color: red;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.b1 {
+    
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+
+
+}
+#cl{
+    padding-top: 10px;
+    background-color: grey; color: white;
+    height: 40px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.bo {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 99%;
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#b {
+    font-size: 25px;
+
+
+}
+
+#b:hover {
+    cursor: pointer;
+    color: aqua;
+    transform: translate(0px, 10px);
+}
+
+
+#b2 {
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
+
+#b3 {
+    font-size: 30px;
+
+}
+
+#b3:hover {
+    cursor: pointer;
+    color: aqua;
+    transform: (0px, 10px);
+    transform: translate(0px, 10px);
+}
+
+
+#i1 {
+    width: 99%;
+    height: 500px;
+    background-image: url(../pics/b1.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#sale {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#img {
+
+    height: 300px;
+    width: 99%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.i2 {
+    background-color: aliceblue;
+    background-image: url(../pics/b2.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#i21 {
+    font-weight: bold;
+    background-color: aliceblue;
+    color: black;
+    font-size: larger;
+    position: absolute;
+    bottom: -15pxpx;
+    left: 10px;
+}
+
+.i3 {
+    background-color: aliceblue;
+    background-image: url(../pics/b3.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#i31 {
+    font-weight: bold;
+    background-color: aliceblue;
+    color: black;
+    font-size: larger;
+    position: absolute;
+    bottom: -15pxpx;
+    left: 27%;
+}
+
+.i4 {
+    background-color: aliceblue;
+    background-image: url(../pics/b4.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#i41 {
+    font-weight: bold;
+    background-color: aliceblue;
+    color: black;
+    font-size: larger;
+    position: absolute;
+    bottom: -15pxpx;
+    left: 53.5%;
+}
+
+.i5 {
+    background-color: aliceblue;
+    background-image: url(../pics/b5.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#i51 {
+    font-weight: bold;
+    background-color: aliceblue;
+    color: black;
+    font-size: larger;
+    position: absolute;
+    bottom: -15pxpx;
+    left: 80%;
+}
+
+#sales {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#im {
+    width: 99%;
+    height: 500px;
+    background-image: url(../pics/b6.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#i {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#sm {
+    height: 300px;
+    width: 99%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sm1 {
+    background-color: aliceblue;
+    background-image: url(../pics/sm1.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sm2 {
+    background-color: aliceblue;
+    background-image: url(../pics/sm2.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sm3 {
+    background-color: aliceblue;
+    background-image: url(../pics/sm3.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sm4 {
+    background-color: aliceblue;
+    background-image: url(../pics/sm4.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#image {
+    height: 300px;
+    width: 99%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#tp {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#tp1 {
+    background-color: aliceblue;
+    background-image: url(../pics/tp1.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#tp2 {
+    background-color: aliceblue;
+    background-image: url(../pics/tp2.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#tp3 {
+    background-color: aliceblue;
+    background-image: url(../pics/tp3.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#tp4 {
+    background-color: aliceblue;
+    background-image: url(../pics/tp4.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#t {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#boat1 {
+    width: 99%;
+    height: 500px;
+    background-image: url(../pics/boat1.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#w {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#tw {
+    height: 300px;
+    width: 99%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#tw1 {
+    background-color: aliceblue;
+    background-image: url(../pics/w1.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#tw2 {
+    background-color: aliceblue;
+    background-image: url(../pics/w2.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#tw3 {
+    background-color: aliceblue;
+    background-image: url(../pics/w3.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#tw4 {
+    background-color: aliceblue;
+    background-image: url(../pics/w4.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#ha {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#hai {
+    height: 300px;
+    width: 99%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#ha1 {
+    background-color: aliceblue;
+    background-image: url(../pics/ha1.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#ha2 {
+    background-color: aliceblue;
+    background-image: url(../pics/ha2.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#ha3 {
+    background-color: aliceblue;
+    background-image: url(../pics/ha3.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#ha4 {
+    background-color: aliceblue;
+    background-image: url(../pics/ha4.webp);
+    height: 300px;
+    width: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#e1 {
+    margin-top: 20px;
+    background-color: gray;
+    color: black;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 10px;
+
+}
+
+#end {
+    height: 275px;
+    width: 99%;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+
+}
+
+#bb1 {
+    background-color: gray;
+    background-image: url(../pics/bb1.webp);
+    height: 250px;
+    width: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#bb2 {
+    background-color: gray;
+    background-image: url(../pics/bb2.webp);
+    height: 250px;
+    width: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#bb3 {
+    background-color: gray;
+    background-image: url(../pics/bb3.webp);
+    height: 250px;
+    width: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#wr {
+
+
+    width: 99%;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+
+
+}
+
+#first {
+    font-size: 20px;
+    font-weight: 20px;
+}
+
+#second {
+    font-size: 20px;
+    font-weight: 20px;
+}
+
+#third {
+    font-size: 20px;
+    font-weight: 20px;
+}
+#E{
+    padding-top: 10px;
+    background-color: gray;
+    height: 60px;
+    width: 99%;
+   
+}
+#Ex{padding-top: 10px;
+    width: 150px;
+    height:40px ;
+    background-color: red; color: white;
+    margin-left: 50%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 5px;
+}
+#Ex:hover{
+    cursor: pointer;
+   background-color: white; color:red;
+    transform: translate(0px, 5px);
+}
+#kl{
+   
+    padding-top: 50px;
+   
+    height: 450px;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+
+}
+#kl1{
+    background-image: url(../pics/kl.webp);
+    height: 450px;
+    width:300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#R{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    
+    
+}
+#I{
+    color: white;
+    font-size:30px ;
+    font-weight: bold;
+    text-align: left;
+}
+#G{
+    font-size: 35px;
+    font-weight: bold;
+}
+#Line{
+    height: 400px;
+    width: 99%;
+    background-color: gray;
+
+}
+#cine{
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+#imagee{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+#image1{
+    background-image: url(../pics/A1.webp);
+    height: 250px;
+    width: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#image2{
+    background-image: url(../pics/A2.webp);
+    height: 250px;
+    width: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#image3{
+    
+    background-image: url(../pics/A3.webp);
+    height: 250px;
+    width: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#M{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+#N{
+    background-color: red; color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+#black{
+    background-color: rgb(53, 50, 50);
+    height: 500px;
+    width: 99%;
+}
+#bl1{
+    padding-top: 40px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+#bl2{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+#mint{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+#mint1{
+   
+    background-image: url(../pics/mint1.webp);
+    height: 50px;
+    width: 19%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#mint2{
+    background-image: url(../pics/mint2.webp);
+    height: 50px;
+    width: 19%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#mint3{
+    background-image: url(../pics/mint3.webp);
+    height: 50px;
+    width: 19%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#mint4{
+    background-image: url(../pics/mint4.webp);
+    height: 50px;
+    width: 19%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#mint5{
+    background-image: url(../pics/mint5.webp);
+    height: 50px;
+    width: 19%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#bm{
+    
+    background-image: url(../pics/n1.webp);
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+#bp{
+    background-color: rgb(56, 51, 51);
+    height: 250px;
+    width: 99%;
+}
+#bp1{
+    padding-top: 30px;
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+#bp2{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+#bp3{
+    padding-top: 25px;
+    background-color:rgb(70, 65, 65);
+    color: white;
+    text-align: center;
+    width: 99%;
+    height:75px;
+}
+#bla{
+    background-color: black;
+    height: 400px;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+#bla1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+#bla2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+#v{
+    padding-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    background-color:black;
+    height: 100px;
+    width: 99%;
+}
+#bla2{
+    background-image: url(../pics/v1.webp);
+    height: 50px;
+    width: 60%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#bla3{
+    font-weight: 20px;
+    font-size: 25px;
+}
+
+#bla9{
+    background-image: url(../pics/v8.webp);
+    height: 50px;
+    width: 9%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#bla10{
+    background-image: url(../pics/v9.webp);
+    height: 50px;
+    width: 9%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
